@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="175.5" y="0.0">yu.designpattern.factory.method.MethodFactory</node>
+    <node x="0.0" y="80.0">yu.designpattern.factory.method.QQLoginFactory</node>
+    <node x="261.0" y="390.0">yu.designpattern.factory.login.WechatLogin</node>
+    <node x="281.0" y="235.0">yu.designpattern.factory.abst.WechatFactory</node>
+    <node x="120.0" y="390.0">yu.designpattern.factory.login.MobileLogin</node>
+    <node x="345.0" y="80.0">yu.designpattern.factory.method.WechatLoginFactory</node>
+    <node x="0.0" y="390.0">yu.designpattern.factory.login.QQLogin</node>
+    <node x="130.0" y="235.0">yu.designpattern.factory.abst.MobileFactory</node>
+    <node x="113.0" y="465.0">yu.designpattern.factory.pay.IPay</node>
+    <node x="108.0" y="545.0">yu.designpattern.factory.pay.AliPay</node>
+    <node x="0.0" y="235.0">yu.designpattern.factory.abst.QQFactory</node>
+    <node x="210.0" y="545.0">yu.designpattern.factory.pay.WechatPay</node>
+    <node x="0.0" y="545.0">yu.designpattern.factory.pay.QQPay</node>
+    <node x="366.0" y="465.0">yu.designpattern.factory.simple.SimpleFactory</node>
+    <node x="162.0" y="80.0">yu.designpattern.factory.method.MobileLoginFactory</node>
+    <node x="126.5" y="155.0">yu.designpattern.factory.abst.AbstractFactory</node>
+    <node x="115.49999999999994" y="310.0">yu.designpattern.factory.login.ILoginMethod</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="yu.designpattern.factory.method.WechatLoginFactory" target="yu.designpattern.factory.method.MethodFactory">
+      <point x="0.0" y="-15.0" />
+      <point x="427.5" y="55.0" />
+      <point x="288.83333333333337" y="55.0" />
+      <point x="45.33333333333334" y="15.0" />
+    </edge>
+    <edge source="yu.designpattern.factory.pay.AliPay" target="yu.designpattern.factory.pay.IPay">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="yu.designpattern.factory.method.QQLoginFactory" target="yu.designpattern.factory.method.MethodFactory">
+      <point x="0.0" y="-15.0" />
+      <point x="71.0" y="55.0" />
+      <point x="198.16666666666666" y="55.0" />
+      <point x="-45.33333333333334" y="15.0" />
+    </edge>
+    <edge source="yu.designpattern.factory.pay.WechatPay" target="yu.designpattern.factory.pay.IPay">
+      <point x="0.0" y="-15.0" />
+      <point x="265.5" y="520.0" />
+      <point x="172.9999999999999" y="520.0" />
+      <point x="23.999999999999886" y="15.0" />
+    </edge>
+    <edge source="yu.designpattern.factory.pay.QQPay" target="yu.designpattern.factory.pay.IPay">
+      <point x="0.0" y="-15.0" />
+      <point x="44.0" y="520.0" />
+      <point x="125.0" y="520.0" />
+      <point x="-24.0" y="15.0" />
+    </edge>
+    <edge source="yu.designpattern.factory.abst.WechatFactory" target="yu.designpattern.factory.abst.AbstractFactory">
+      <point x="0.0" y="-15.0" />
+      <point x="347.5" y="210.0" />
+      <point x="241.5" y="210.0" />
+      <point x="46.0" y="15.0" />
+    </edge>
+    <edge source="yu.designpattern.factory.login.MobileLogin" target="yu.designpattern.factory.login.ILoginMethod">
+      <point x="-5.6843418860808015E-14" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="yu.designpattern.factory.login.QQLogin" target="yu.designpattern.factory.login.ILoginMethod">
+      <point x="0.0" y="-15.0" />
+      <point x="50.0" y="365.0" />
+      <point x="137.16666666666663" y="365.0" />
+      <point x="-43.333333333333314" y="15.0" />
+    </edge>
+    <edge source="yu.designpattern.factory.login.WechatLogin" target="yu.designpattern.factory.login.ILoginMethod">
+      <point x="0.0" y="-15.0" />
+      <point x="322.5" y="365.0" />
+      <point x="223.83333333333326" y="365.0" />
+      <point x="43.333333333333314" y="15.0" />
+    </edge>
+    <edge source="yu.designpattern.factory.method.MobileLoginFactory" target="yu.designpattern.factory.method.MethodFactory">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="yu.designpattern.factory.abst.MobileFactory" target="yu.designpattern.factory.abst.AbstractFactory">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="yu.designpattern.factory.abst.QQFactory" target="yu.designpattern.factory.abst.AbstractFactory">
+      <point x="0.0" y="-15.0" />
+      <point x="55.0" y="210.0" />
+      <point x="149.5" y="210.0" />
+      <point x="-46.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="0.0" y="0.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
